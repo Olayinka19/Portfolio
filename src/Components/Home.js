@@ -48,7 +48,7 @@ const Home = () => {
     </section>
 
     <section className={`skills ${gameStarted ? 'visible' : ''}`}>
-      <h2>Skills</h2>
+      <h2 class="uk-animation-slide-left">Skills</h2>
       <ul>
         <li>Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
         <li>Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
@@ -58,19 +58,20 @@ const Home = () => {
     </section>
 
     <section className={`projects ${gameStarted ? 'visible' : ''}`}>
+    <br />
       <h2>Portfolio</h2>
       <h1>Hello, I'm Olayinka</h1>
-      <p>{`Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p>
+      <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p>
       <button className="start-button" onClick={startGame}>
         Start the Journey
       </button>
       <section className={`skills ${gameStarted ? 'visible' : ''}`}>
-      <h2>Skills</h2>
+      <h2 class=" uk-animation-slide-right">Skills</h2>
       <ul>
-        <li>Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
-        <li>Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
-        <li>Databases: MySQL, PostgreSQL</li>
-        <li>Project Management</li>
+        <li class=" uk-animation-slide-right">Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
+        <li class=" uk-animation-slide-right">Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
+        <li class=" uk-animation-slide-right">Databases: MySQL, PostgreSQL</li>
+        <li class=" uk-animation-slide-right">Project Management</li>
       </ul>
     </section>
       <div className="project">
@@ -87,7 +88,7 @@ const Home = () => {
 
     <section className={`contact ${gameStarted ? 'visible' : ''}`}>
       <h2>Contact</h2>
-      <p>Let's collaborate! Reach out to me at [your email].</p>
+      <p>Let's collaborate! Reach out to me at [Olayinkafakanbi@pursuit.org].</p>
     </section>
 
     <section className={`playground ${gameStarted ? 'visible' : ''}`}>
@@ -96,6 +97,7 @@ const Home = () => {
         <img src={GIF} alt="GIF" />
       </div>
     </section>
+    <br />
   </div>
   );
 };
