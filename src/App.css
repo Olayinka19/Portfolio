@@ -13,6 +13,44 @@
   }
 }
 
+
+
+/* ... Previous styles ... */
+
+.about h2,
+.events h2,
+.projects h2,
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 20px;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+/* ... More styles ... */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +65,75 @@
 .App-link {
   color: #61dafb;
 }
+/* ... Previous styles ... */
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.cta h2 {
+  margin-bottom: 10px;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding: 20px;
+  }
+}
+.cta-button {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.parallax-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+/* ... More styles ... */
+
 
 @keyframes App-logo-spin {
   from {
