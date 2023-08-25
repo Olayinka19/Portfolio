@@ -56,10 +56,26 @@
   max-width: 100%;
   height: auto;
 }
+.image{
+    width: 200px;
+    height:200px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.project{
+    padding:12px;
+}
 
 @media screen and (min-width: 768px)  and (max-width: 991px) {
     .home {
       padding: 0 45px;
+    }
+    .image{
+        width: 250px;
+        height:250px;
     }
 }
 
@@ -67,4 +83,9 @@
     .home {
       padding: 0 45px;
     }
+    .image{
+        width: 250px;
+        height:250px;
+    }
+
 }
