@@ -13,12 +13,12 @@ const NavBar = () => {
     <nav className={`navbar ${menuOpen ? 'active' : ''}`}>
     <div className="logo">Olayinka</div>
     <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
-      <li><a class="uk-button uk-button-default" href="#">About</a></li>
-      <a class="uk-button uk-button-default" href="/EventList">Events</a>
+      <li><a  href="#">About</a></li>
+      <a  href="/EventList">Events</a>
       <li className="dropdown">
-        <a class="uk-button uk-button-default" href="/Portfolio">Projects</a>
+        <a  href="/Portfolio">Projects</a>
         <div className="dropdown-content">
-        {/* <a class="uk-button uk-button-default" href="#">Fall Events</a> */}
+        {/* <a  href="#">Fall Events</a> */}
           {/* Add more dropdown items */}
         </div>
       </li>

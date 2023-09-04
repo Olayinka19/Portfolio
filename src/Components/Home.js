@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Home.css';
 import ola from './assets/ola.jpeg'
 import GIF from './assets/giphy.gif'; // Import your GIF
-
+import { motion } from "framer-motion";
 
 
 const projectsData = [
@@ -26,6 +26,17 @@ const projectsData = [
       githubLink: 'https://github.com/Olayinka19/Ahead-Shopping',
     },
   ];
+
+  const f = document.getElementById("foo");
+  document.addEventListener(
+    "click",
+    (ev) => {
+      f.style.transform = `translateY(${ev.clientY - 25}px)`;
+      f.style.transform += `translateX(${ev.clientX - 25}px)`;
+    },
+    false,
+  );
+
 const Home = () => {
   const [gameStarted, setGameStarted] = useState(false);
   const [currentProject, setCurrentProject] = useState(0);
@@ -75,6 +86,7 @@ const Home = () => {
       <br />
       <img className='image' src={ola} width="220px" height="220px" />
       <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1>
+      
       <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p>
       {/* <button className="start-button" onClick={startGame}>
         Start the Journey
@@ -125,6 +137,9 @@ const Home = () => {
         Next Project
       </button>
     </section>
+    <div class="container"> </div>
+    <p>Click anywhere to move the ball</p>
+<div id="foo" class="ball"></div>
 
     <section className={`contact ${gameStarted ? 'visible' : ''}`}>
     
@@ -135,6 +150,10 @@ const Home = () => {
 
     
     <br />
+   
+
+
+
     
   </div>
   );
