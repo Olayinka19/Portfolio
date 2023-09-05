@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import Portfolio from './Components/Portfolio';
 import EventList from './Components/EventList';
+import Animations from './Components/Animations';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/Animations" element={<Animations />} />
         <Route path="/Portfolio" element={<Portfolio/>} />
         <Route path="/EventList" element={<EventList/>} />
       </Routes>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Animations from './Animations';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -14,7 +15,7 @@ const NavBar = () => {
     <div className="logo">Olayinka</div>
     <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
       <li><a  href="#">About</a></li>
-      <a  href="/EventList">Events</a>
+      <a  href="/Animations">Animations</a>
       <li className="dropdown">
         <a  href="/Portfolio">Projects</a>
         <div className="dropdown-content">

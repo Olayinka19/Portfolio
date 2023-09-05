@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Home.css';
 import ola from './assets/ola.jpeg'
 import GIF from './assets/giphy.gif'; // Import your GIF
-import { motion } from "framer-motion";
+
 
 
 const projectsData = [
@@ -27,15 +27,7 @@ const projectsData = [
     },
   ];
 
-  const f = document.getElementById("foo");
-  document.addEventListener(
-    "click",
-    (ev) => {
-      f.style.transform = `translateY(${ev.clientY - 25}px)`;
-      f.style.transform += `translateX(${ev.clientX - 25}px)`;
-    },
-    false,
-  );
+
 
 const Home = () => {
   const [gameStarted, setGameStarted] = useState(false);
@@ -63,7 +55,7 @@ const Home = () => {
     
 
 
-    <section className={`skills ${gameStarted ? 'visible' : ''}`}>
+    {/* <section className={`skills ${gameStarted ? 'visible' : ''}`}>
       <h2 class="uk-animation-slide-left">Skills</h2>
       <ul>
         <li>Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
@@ -71,19 +63,13 @@ const Home = () => {
         <li>Databases: MySQL, PostgreSQL</li>
         <li>Project Management</li>
       </ul>
-    </section>
+    </section> */}
     <div>
-    <img src={ola} width="150px" height="150px" />
+    {/* <img src={ola} width="150px" height="150px" /> */}
     </div>
     <section className={`projects ${gameStarted ? 'visible' : ''}`}>
     <br />
-      <h2>Portfolio</h2>
-      
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+  
       <img className='image' src={ola} width="220px" height="220px" />
       <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1>
       
@@ -121,10 +107,10 @@ const Home = () => {
     </li>
 </ul>
     <section className={`playground ${gameStarted ? 'visible' : ''}`}>
-      <h2>Playground</h2>
+      {/* <h2>Playground</h2>
       <div className="gif-container">
         <img src={GIF} alt="GIF" />
-      </div>
+      </div> */}
     </section>
       <div className="project">
         <h3>{projectsData[currentProject].title}</h3>
@@ -137,9 +123,7 @@ const Home = () => {
         Next Project
       </button>
     </section>
-    <div class="container"> </div>
-    <p>Click anywhere to move the ball</p>
-<div id="foo" class="ball"></div>
+    
 
     <section className={`contact ${gameStarted ? 'visible' : ''}`}>
     
