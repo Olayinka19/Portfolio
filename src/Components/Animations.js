@@ -42,7 +42,7 @@ document.addEventListener(
   <div class="spinner-content1"> </div>
   <div class="spinner-content2"> </div>
   <div class="spinner-content3"> </div>
-  {/* <button class="btnn"> Change Color </button> */}
+  
 </div>
     
     
