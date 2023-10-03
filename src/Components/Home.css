@@ -9,6 +9,21 @@
     background-color: #f5f5f5;
     transition: background-color 1s ease;
   }
+  .ahead{
+ width: 120px;
+ height:120px;
+  }
+  .paw{
+    width: 120px;
+    height:120px;
+  }
+  .img-container{
+    display:flex;
+    width:140px;
+    height:130px;
+    border: solid dotted black;
+    justify-content: space-between;
+  }
   .container{
     width:300px;
     height:300px;

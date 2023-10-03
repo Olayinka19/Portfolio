@@ -23,9 +23,7 @@ function App() {
       </Routes>
     </Router>
      
-    <footer>
-  Olayinka Fakanbi copywrite 2023
-</footer>
+   
     </div>
   );
 }

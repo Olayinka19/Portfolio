@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Home.css';
 import ola from './assets/ola.jpeg'
+import ahead from './assets/ahead.jpeg'
+import paw from './assets/paw.png'
 import GIF from './assets/giphy.gif'; // Import your GIF
 
 
@@ -8,6 +10,8 @@ import GIF from './assets/giphy.gif'; // Import your GIF
 const projectsData = [
     {
       title: 'Ola-Pawster Capstone Project',
+      image: 'https://ola-pawster.netlify.app/',
+      
       description: [
         "Ola-Pawster Capstone Project serves as a prominent demonstration of my adept SQL skills in crafting a sophisticated database-driven solution that seamlessly connects pets, users, and shelter homes within an intuitive web platform.",
         "Formulated a well-structured schema that effectively organizes and preserves pivotal data concerning users, pets, and shelter homes.",
@@ -18,6 +22,7 @@ const projectsData = [
     },
     {
       title: 'Ahead-shopping E-commerce Website',
+      image: '',
       description: [
         "Optimized PostgreSQL databases for dependable data storage, rapid retrieval, and secure handling of sensitive information.",
         "Designed captivating user interfaces with JavaScript, React, ensuring seamless adaptability across devices.",
@@ -71,6 +76,8 @@ const Home = () => {
     <br />
   
       <img className='image' src={ola} width="220px" height="220px" />
+      
+      
       <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1>
       
       <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p>
@@ -114,14 +121,28 @@ const Home = () => {
     </section>
       <div className="project">
         <h3>{projectsData[currentProject].title}</h3>
+        {/* {projectsData[currentProject].image} */}
+        <img
+    className='project-image'
+    src={projectsData[currentProject].image} // Updated image link
+    alt={`Project: ${projectsData[currentProject].title}`}
+  />
         {projectsData[currentProject].description.map((desc, index) => (
           <p key={index}>{desc}</p>
         ))}
+        <img src={ahead.jpeg} />
+        
         <a className='project' href={projectsData[currentProject].githubLink}>Github</a>
+        {/* <div className="img-container">
+        <img className="ahead-img" src={ahead} />
+        <img className='paw' src={paw}/>
+        </div> */}
       </div>
       <button className=" next-project-button uk-button uk-button-primary" onClick={nextProject}>
         Next Project
       </button>
+      <button className='uk-button uk-button-primary'><a href='https://ola-pawster.netlify.app/'>Ola-pawster</a></button>
+      <button className='uk-button uk-button-primary'><a href='https://ahead-store.netlify.app/'>Ahead-Shopping</a></button>
     </section>
     
 
