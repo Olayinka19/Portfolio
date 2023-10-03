@@ -122,15 +122,15 @@ const Home = () => {
       <div className="project">
         <h3>{projectsData[currentProject].title}</h3>
         {/* {projectsData[currentProject].image} */}
-        <img
+        {/* <img
     className='project-image'
     src={projectsData[currentProject].image} // Updated image link
     alt={`Project: ${projectsData[currentProject].title}`}
-  />
+  /> */}
         {projectsData[currentProject].description.map((desc, index) => (
           <p key={index}>{desc}</p>
         ))}
-        <img src={ahead.jpeg} />
+        {/* <img src={ahead.jpeg} /> */}
         
         <a className='project' href={projectsData[currentProject].githubLink}>Github</a>
         {/* <div className="img-container">
