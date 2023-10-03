@@ -4,11 +4,11 @@ import Animations from './Animations';
 import './NavBar.css';
 
 const NavBar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
 
   return (
   //   <nav className={`navbar ${menuOpen ? 'active' : ''}`}>
@@ -32,14 +32,16 @@ const NavBar = () => {
   //   </div>
   // </nav>
   <div className='Nav'>
-    <nav>
-      <ol>
-        <a href='/'>Home</a>
-        <a href='/BlogPost'>Blog</a>
-        <a href='/About'>About</a>
-        <a href="/Contact">Contact</a>
-      </ol>
-    </nav>
+       <header>
+      <nav>
+        <div className="logo">Your Logo</div>
+        <ul className="navbar">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
   </div>
   );
 };

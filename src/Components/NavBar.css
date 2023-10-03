@@ -124,12 +124,61 @@ a:focus
     transform: translateY(-6px) rotate(-45deg);
   }
 /* }   */
-nav{
+/* nav{
   width:120px;
   padding:2.5rem;
   justify-content: space-between;
   align-items: center;
-}
+} */
 /* .Nav{
   justify-content: space-between;
 } */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hover effect for navbar items */
+.navbar li:hover {
+  transform: scale(1.1);
+}

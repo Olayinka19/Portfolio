@@ -124,7 +124,21 @@ const Home = () => {
     </div>
     <section className={`projects ${gameStarted ? 'visible' : ''}`}>
     <br />
-  
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
       <img className='image' src={ola} width="220px" height="220px" />
       
       

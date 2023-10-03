@@ -169,13 +169,14 @@
       }
       nav{
         display: flex;
-        gap: 0.6rem;
+        gap: 0.9rem;
+        justify-content: space-around;
       }
       
       a {
         flex: 1;
         background-color:#333;
-        color: #1f1212;
+        color: #d8d1d1;
         border:1px solid;
         padding: 0.5rem;
         text-align: center;
@@ -188,6 +189,7 @@
       {
        background-color: #fff;
         color: #333;
+        width:50px;
       }
       .spinner {
         width:400px;
@@ -408,6 +410,7 @@
       nav{
         display: flex;
         gap: 0.6rem;
+        padding: 12px;
       }
       
       a {
