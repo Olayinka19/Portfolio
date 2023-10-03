@@ -263,7 +263,7 @@ const Home = () => {
         </div> */}
       </div>
       <div className="button-tag">
-      <button className=" next-project-button uk-button uk-button-primary" onClick={nextProject}>
+      <button className=" next-project-button uk-button uk-button-neutral" onClick={nextProject}>
         Next Project
       </button>
       

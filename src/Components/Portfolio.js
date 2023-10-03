@@ -8,9 +8,12 @@ const Portfolio = () => {
       <div className="portfolio">
         {/* ... Header and other sections ... */}
         <header>
-        <p>Web Developer</p>
+        <p>Software Engineer</p>
       </header>
         <section className="projects">
+        {/* <br /> */}
+        <br />
+        <br />
           <h2>My Projects</h2>
           <div className="project-list">
             <div className="project">
