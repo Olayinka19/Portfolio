@@ -125,6 +125,11 @@ a:focus
   }
 /* }   */
 nav{
-  padding:2rem;
+  width:120px;
+  padding:2.5rem;
   justify-content: space-between;
+  align-items: center;
 }
+/* .Nav{
+  justify-content: space-between;
+} */

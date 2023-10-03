@@ -48,6 +48,56 @@ const Home = () => {
 
   return (
     <div className={`home ${gameStarted ? 'game-started' : ''}`}>
+
+           <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+
+    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+        <li>
+            <img className='Slide' src={ahead}  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>1</h1></div> */}
+        </li>
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>2</h1></div> */}
+        </li>
+        <li>
+        <img className='Slide' src={ola} width="220px" height="220px" />
+        </li>
+        <li>
+            <img className='Slide' src={ola} alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>4</h1></div> */}
+        </li>
+        <li>
+            <img className='Slide' src="https://img.freepik.com/free-photo/dark-glass-bottle-with-single-liquid-drop-generative-ai_188544-9634.jpg"  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>5</h1></div> */}
+
+        </li>
+        <li>
+            <img className='Slide' src="https://img.freepik.com/free-photo/young-couple-embracing-autumn-nature-smiling-generated-by-ai_188544-54279.jpg"  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>6</h1></div> */}
+        </li>
+        <li>
+            <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-funky-clothing-enjoying-outdoors-generated-by-ai_188544-37450.jpg"  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>7</h1></div> */}
+        </li>
+        <li>
+            <img className='Slide' src="https://img.freepik.com/free-photo/multi-ethnic-group-young-adults-smiling-generated-by-ai_24640-81233.jpg"  alt="" />
+            {/* <div class="uk-position-center uk-panel"><h1>8</h1></div> */}
+        </li>
+        <li>
+            {/* <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-embrace-fashionable-city-night-generated-by-ai_188544-38888.jpg"  alt="" /> */}
+            {/* <div class="uk-position-center uk-panel"><h1>9</h1></div> */}
+        </li>
+        <li>
+            {/* <img className='Slide' src="https://img.freepik.com/free-photo/two-women-are-standing-outside-store-one-them-is-wearing-green-jacket_1340-38174.jpg"  alt="" /> */}
+            {/* <div class="uk-position-center uk-panel"><h1>10</h1></div> */}
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
     <section className={`intro ${gameStarted ? 'hidden' : ''}`}>
     <hr class="uk-divider-icon" />
       <h1>Hello, I'm [Your Name]</h1>
@@ -85,7 +135,7 @@ const Home = () => {
         Start the Journey
       </button> */}
       <section className={`skills ${gameStarted ? 'visible' : ''}`}>
-      <h2 class=" uk-animation-slide-right">Skills</h2>
+      <h2 class=" uk-animation-slide-right">Projects</h2>
       {/* <ul>
         <li class=" uk-animation-slide-right">Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
         <li class=" uk-animation-slide-right">Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
@@ -93,17 +143,77 @@ const Home = () => {
         <li class=" uk-animation-slide-right">Project Management</li>
       </ul> */}
     </section>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+
+<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/black-t-shirt-is-hanging-hanger-with-word-dope-it_1340-38184.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>1</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/black-shirt-with-word-ultra-it_1340-37775.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>2</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/red-shirt-is-box-with-red-box-background_1340-38146.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>3</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/fashionable-men-winter-jacket-with-zipper-close-up-generated-by-ai_188544-43270.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>4</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/dark-glass-bottle-with-single-liquid-drop-generative-ai_188544-9634.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>5</h1></div> */}
+
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/young-couple-embracing-autumn-nature-smiling-generated-by-ai_188544-54279.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>6</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-funky-clothing-enjoying-outdoors-generated-by-ai_188544-37450.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>7</h1></div> */}
+    </li>
+    <li>
+        <img className='Slide' src="https://img.freepik.com/free-photo/multi-ethnic-group-young-adults-smiling-generated-by-ai_24640-81233.jpg"  alt="" />
+        {/* <div class="uk-position-center uk-panel"><h1>8</h1></div> */}
+    </li>
+    <li>
+        {/* <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-embrace-fashionable-city-night-generated-by-ai_188544-38888.jpg"  alt="" /> */}
+        {/* <div class="uk-position-center uk-panel"><h1>9</h1></div> */}
+    </li>
+    <li>
+        {/* <img className='Slide' src="https://img.freepik.com/free-photo/two-women-are-standing-outside-store-one-them-is-wearing-green-jacket_1340-38174.jpg"  alt="" /> */}
+        {/* <div class="uk-position-center uk-panel"><h1>10</h1></div> */}
+    </li>
+</ul>
+<h2>Links to my Projects</h2>
+<div className='blogPostCont'>
+<div className='blog-pst-buttn'>
+<button className='uk-button uk-button-primary'><a href='https://ola-pawster.netlify.app/'>Ola-pawster</a></button>
+  
+</div>
+<div className='blog-pst-buttn'>
+<button className='uk-button uk-button-primary'><a href='https://masonmei.wixsite.com/pursuitconnect/post/faho-blog'>Pursuit-Cnt</a></button>
+  </div>
+  </div>
+<h2 class="uk-animation-slide-right">Skills</h2>
+<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
     <ul uk-accordion="collapsible: false">
     <li>
         <a class="uk-accordion-title" href="#">Programming Languages</a>
         <div class="uk-accordion-content">
-            <p> JavaScript, Python (Node.js, React/React Native), TypeScript</p>
+            <p> HTML, CSS, JavaScript, Python (Node.js, React/React Native), TypeScript</p>
         </div>
     </li>
     <li>
         <a class="uk-accordion-title" href="#">Frameworks/Libraries</a>
         <div class="uk-accordion-content">
-            <p>Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap.</p>
+            <p>Express, React/Redux, Tailwind CSS, Material UI, UIKit, React-Bootstrap.</p>
         </div>
     </li>
     <li>
@@ -138,19 +248,21 @@ const Home = () => {
         <img className='paw' src={paw}/>
         </div> */}
       </div>
+      <div className="button-tag">
       <button className=" next-project-button uk-button uk-button-primary" onClick={nextProject}>
         Next Project
       </button>
-      <button className='uk-button uk-button-primary'><a href='https://ola-pawster.netlify.app/'>Ola-pawster</a></button>
-      <button className='uk-button uk-button-primary'><a href='https://masonmei.wixsite.com/pursuitconnect/post/faho-blog'>Pursuit Connect</a></button>
+      
+      </div>
     </section>
-    
+  
 
     <section className={`contact ${gameStarted ? 'visible' : ''}`}>
     
     {/* <img src={ola} width="350px" height="350px" /> */}
-      <h2>Contact</h2>
-      <p>Let's collaborate! Reach out to me at [Olayinkafakanbi@pursuit.org]</p>
+      <h2 className='uk-animation-slide-right'>Contact</h2>
+      <p className='uk-animation-slide-right'>Let's collaborate! Reach out to me at </p>
+      <a href="mailto:olayinkafakanbi@gmail.com">[Olayinkafakanbi@gmail.com]</a>
     </section>
 
     

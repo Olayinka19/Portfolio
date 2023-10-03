@@ -24,6 +24,20 @@
     border: solid dotted black;
     justify-content: space-between;
   }
+  .blog-pst-buttn{
+    width: 200px;
+    height: 40px;
+    border:3px solid black;
+    border-radius:12px  ;
+    -webkit-border-radius:12px  ;
+    -moz-border-radius:12px  ;
+    -ms-border-radius:12px  ;
+    -o-border-radius:12px  ;
+}
+.blogPostCont{
+  display:flex;
+  justify-content: space-around;
+}
   .container{
     width:300px;
     height:300px;
@@ -105,6 +119,7 @@
     width: 200px;
     height:200px;
     border-radius: 12px;
+    margin-top: 620px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
@@ -219,4 +234,21 @@
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: landscape) {
 
+}
+.olay{
+  width:200px;
+  height:200px;
+  border:3px solid black;
+}
+.Slide{
+  width: 600px !important;
+  height: 500px !important;
+  padding: 12px;
+  justify-content: space-between;
+  border:3px solid transparent;
+  border-radius: 6rem !important;
+  -webkit-border-radius: 6rem !important;
+  -moz-border-radius: 6rem !important;
+  -ms-border-radius: 6rem !important;
+  -o-border-radius: 6rem !important;
 }

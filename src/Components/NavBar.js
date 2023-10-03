@@ -31,7 +31,7 @@ const NavBar = () => {
   //     <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
   //   </div>
   // </nav>
-  <div>
+  <div className='Nav'>
     <nav>
       <ol>
         <a href='/'>Home</a>
