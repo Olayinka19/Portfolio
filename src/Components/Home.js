@@ -21,14 +21,14 @@ const projectsData = [
       githubLink: 'https://github.com/Olayinka19/Pawster-capstone-project',
     },
     {
-      title: 'Ahead-shopping E-commerce Website',
+      title: 'Pursuit Connect',
       image: '',
       description: [
         "Optimized PostgreSQL databases for dependable data storage, rapid retrieval, and secure handling of sensitive information.",
         "Designed captivating user interfaces with JavaScript, React, ensuring seamless adaptability across devices.",
         "Built a robust server-side foundation with Express for efficient data flow and rapid API development.",
       ],
-      githubLink: 'https://github.com/Olayinka19/Ahead-Shopping',
+      githubLink: 'https://github.com/Olayinka19',
     },
   ];
 
@@ -142,7 +142,7 @@ const Home = () => {
         Next Project
       </button>
       <button className='uk-button uk-button-primary'><a href='https://ola-pawster.netlify.app/'>Ola-pawster</a></button>
-      <button className='uk-button uk-button-primary'><a href='https://ahead-store.netlify.app/'>Ahead-Shopping</a></button>
+      <button className='uk-button uk-button-primary'><a href='https://masonmei.wixsite.com/pursuitconnect/post/faho-blog'>Pursuit Connect</a></button>
     </section>
     
 
