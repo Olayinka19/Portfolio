@@ -59,67 +59,10 @@ const Home = () => {
    
     
     <section className={`projects ${gameStarted ? 'visible' : ''}`}>
-       {/* <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
-
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-            
-        </li>
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-            
-        </li>
-        <li>
-        <img className='Slide' src={ola} width="220px" height="220px" />
-        </li>
-        <li>
-            <img className='Slide' src={ola} alt="" />
-            
-        </li>
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-           
-
-        </li>
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-            
-        </li>
-        <li>
-            <img className='Slide' src={ola}  alt="" />
-            
-        </li>
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-           
-        </li>
-
-       
-    </ul>
-
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-</div>  */}
- 
-      {/* <img className='image' src={pfp} width="220px" height="220px" /> */}
       
-      
-      {/* <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1> */}
-      
-      {/* <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p> */}
-      {/* <button className="start-button" onClick={startGame}>
-        Start the Journey
-      </button> */}
       <section className={`skills ${gameStarted ? 'visible' : ''}`}>
       <h1 class=" uk-animation-slide-right">Projects</h1>
-      {/* <ul>
-        <li class=" uk-animation-slide-right">Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
-        <li class=" uk-animation-slide-right">Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
-        <li class=" uk-animation-slide-right">Databases: MySQL, PostgreSQL</li>
-        <li class=" uk-animation-slide-right">Project Management</li>
-      </ul> */}
+    
     </section>
     <div class="Slid uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
 
