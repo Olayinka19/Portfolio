@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Animations from './Animations';
+import ailogo from './assets/ailogo.png'
 import './NavBar.css';
 
 const NavBar = () => {
@@ -34,7 +35,7 @@ const NavBar = () => {
   <div className='Nav'>
        <header>
       <nav>
-        <div className="logo">Your Logo</div>
+        <div className="logo"><a href="/"><img src={ailogo} /></a></div>
         <ul className="navbar">
           {/* <li><a href="/About">About</a></li> */}
           <li><a href="/Portfolio">Portfolio</a></li>

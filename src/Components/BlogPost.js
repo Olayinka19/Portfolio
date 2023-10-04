@@ -3,14 +3,20 @@ import React from 'react'
 function BlogPost() {
   return (
     <div>
+    <br />
+    <br />
+    <br />
+    <br />
     <article>
-    <header><h1>Nothing Crazy BlogPost</h1>
-    <p>Author: Olayinka Hendrix</p></header>
+
     <main>
         <section>
-            <h2>Nothing Crazy?</h2>
+            {/* <h2>Nothing Crazy?</h2> */}<section>
+          <h2>What is AI?</h2>
+          <p>AI stands for Artificial Intelligence. It refers to the development of computer systems that can perform tasks that would typically require human intelligence. AI algorithms are designed to analyze data, learn from patterns, and make decisions or predictions. AI can be used in various fields, such as healthcare, finance, transportation, and entertainment, to automate processes, improve efficiency, and provide personalized experiences. It's an exciting and rapidly evolving field with the potential to revolutionize many aspects of our lives. What else would you like to know about AI? 😊 </p>
+        </section>
             <p>This blog takes a deep dive into the significant impact of the internet on reshaping the way people worldwide perceive artificial intelligence (AI). Within these digital pages, we'll explore various strategies aimed at nurturing a friendly rapport with AI, instead of approaching it as a potential opponent. AI has firmly planted its roots in our contemporary world, making it imperative for us to choose between embracing the idea of AI revolutionizing our lives or being ready to share stories about how AI has fundamentally altered our daily routines in this digital age.</p>
-<img width="800px" height="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thenakedscientists.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Ffeatured_image%2Fpublic%2Fmedia%2Fmedia%2Fimages%2Fxsophia_AI_robotcrp.jpg%2Cqitok%3DtJvc2Eqt.pagespeed.ic.X7N10g64dO.jpg&f=1&nofb=1&ipt=4bf7ce78ccb771a07d0c61740f2fc75405ac99f152b9dab29f776d7e42cafd91&ipo=images" />
+<img width="80%" height="300px" src="https://images.pexels.com/photos/8566524/pexels-photo-8566524.jpeg?auto=compress&cs=tinysrgb&w=1600" />
         </section> 
         <section>
             <h3>Navigating the Uncertain Future of AI: Are We Ready for the Next Technological Revolution?</h3>
@@ -24,6 +30,7 @@ The sobering reality is the concept of "Reincarnation," which, while not univers
 
 In light of these considerations, it is imperative that we approach the AI revolution with caution. The path ahead is uncertain, filled with possibilities and potential pitfalls. Are we truly ready for the profound changes that AI could bring to our world, and how will we navigate this evolving landscape? These are questions that demand thoughtful exploration as we step into an era where artificial intelligence plays an increasingly prominent role in our lives.</p>
         </section>
+        
         <section><h3>Would AI get smarter than Humans?</h3>
         <img width="800px" height="300px" src="https://www.coolkidfacts.com/wp-content/uploads/2020/05/Gizah.jpg" />
         <p>it's a resounding "Yes!" These machines possess the ability to learn autonomously, and that aspect can be quite intimidating. We've witnessed instances where AI triumphs over the world's best chess players, and it has seamlessly integrated into various activities in our lives, including soccer and many others. There's no denying that AI is poised to outperform humans in numerous domains.

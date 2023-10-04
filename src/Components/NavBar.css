@@ -175,14 +175,18 @@ nav {
 
 .navbar a {
   text-decoration: none;
-  color: rgb(86, 75, 2);
+  color: rgb(226, 225, 221);
 }
 
 /* Hover effect for navbar items */
 .navbar li:hover {
-  transform: scale(2.1);
-  -webkit-transform: scale(2.1);
-  -moz-transform: scale(2.1);
-  -ms-transform: scale(2.1);
-  -o-transform: scale(2.1);
+  transform: scale(1.35);
+  -webkit-transform: scale(1.35);
+  -moz-transform: scale(1.35);
+  -ms-transform: scale(1.35);
+  -o-transform: scale(1.35);
+}
+.logo{
+  width:120px;
+  height:40px;
 }

@@ -1,15 +1,40 @@
 // ... Previous code ...
+import React, {useState} from 'react';
 
+
+const projectsData = [
+  {
+    title: 'Ola-Pawster Capstone Project',
+    image: 'https://ola-pawster.netlify.app/',
+    
+    description: [
+      "Ola-Pawster Capstone Project serves as a prominent demonstration of my adept SQL skills in crafting a sophisticated database-driven solution that seamlessly connects pets, users, and shelter homes within an intuitive web platform.",
+      "Formulated a well-structured schema that effectively organizes and preserves pivotal data concerning users, pets, and shelter homes.",
+      "Led and managed small-sized projects and components of larger projects/programs through their entire lifecycle.",
+    ],
+  
+    githubLink: 'https://github.com/Olayinka19/Pawster-capstone-project',
+  },
+  {
+    title: 'Pursuit Connect',
+    image: '',
+    description: [
+      "Optimized PostgreSQL databases for dependable data storage, rapid retrieval, and secure handling of sensitive information.",
+      "Designed captivating user interfaces with JavaScript, React, ensuring seamless adaptability across devices.",
+      "Built a robust server-side foundation with Express for efficient data flow and rapid API development.",
+    ],
+    githubLink: 'https://github.com/Olayinka19',
+  },
+];
 const Portfolio = () => {
-    // const scrollToSection = sectionId => {
-    //     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-    //   };
+  const [currentProject, setCurrentProject] = useState(0);
+  const nextProject = () => {
+    setCurrentProject((prevProject) => (prevProject + 1) % projectsData.length);
+  };
+
     return (
       <div className="portfolio">
-        {/* ... Header and other sections ... */}
-        <header>
-        <p>Software Engineer</p>
-      </header>
+     
         <section className="projects">
         {/* <br /> */}
         <br />

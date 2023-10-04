@@ -3,7 +3,7 @@ import './Home.css';
 import ola from './assets/ola.jpeg'
 import ahead from './assets/ahead.jpeg'
 import paw from './assets/paw.png'
-import GIF from './assets/giphy.gif'; // Import your GIF
+import pfp from './assets/pfp.png'
 
 
 
@@ -48,108 +48,72 @@ const Home = () => {
 
   return (
     <div className={`home ${gameStarted ? 'game-started' : ''}`}>
-
-           <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
-
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
-        <li>
-            <img className='Slide' src={ahead}  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>1</h1></div> */}
-        </li>
-        <li>
-            <img className='Slide' src={paw}  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>2</h1></div> */}
-        </li>
-        <li>
-        <img className='Slide' src={ola} width="220px" height="220px" />
-        </li>
-        <li>
-            <img className='Slide' src={ola} alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>4</h1></div> */}
-        </li>
-        <li>
-            <img className='Slide' src="https://img.freepik.com/free-photo/dark-glass-bottle-with-single-liquid-drop-generative-ai_188544-9634.jpg"  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>5</h1></div> */}
-
-        </li>
-        <li>
-            <img className='Slide' src="https://img.freepik.com/free-photo/young-couple-embracing-autumn-nature-smiling-generated-by-ai_188544-54279.jpg"  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>6</h1></div> */}
-        </li>
-        <li>
-            <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-funky-clothing-enjoying-outdoors-generated-by-ai_188544-37450.jpg"  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>7</h1></div> */}
-        </li>
-        <li>
-            <img className='Slide' src="https://img.freepik.com/free-photo/multi-ethnic-group-young-adults-smiling-generated-by-ai_24640-81233.jpg"  alt="" />
-            {/* <div class="uk-position-center uk-panel"><h1>8</h1></div> */}
-        </li>
-        <li>
-            {/* <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-embrace-fashionable-city-night-generated-by-ai_188544-38888.jpg"  alt="" /> */}
-            {/* <div class="uk-position-center uk-panel"><h1>9</h1></div> */}
-        </li>
-        <li>
-            {/* <img className='Slide' src="https://img.freepik.com/free-photo/two-women-are-standing-outside-store-one-them-is-wearing-green-jacket_1340-38174.jpg"  alt="" /> */}
-            {/* <div class="uk-position-center uk-panel"><h1>10</h1></div> */}
-        </li>
-    </ul>
-
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-</div>
     <section className={`intro ${gameStarted ? 'hidden' : ''}`}>
     <hr class="uk-divider-icon" />
-      <h1>Hello, I'm [Your Name]</h1>
-      <p>{`Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit. Skilled in developing project plans, managing resources, schedules, and budgets to ensure the delivery of high-quality results. Proficient in analyzing vendor proposals, tracking project performance, and ensuring compliance with standards and regulations. Adept at fostering collaboration, conducting stage gate reviews, and driving project success.`}</p>
+      <h1>Hello, I'm Olayinka Fakanbi</h1>
+      <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit. Skilled in developing project plans, managing resources, schedules, and budgets to ensure the delivery of high-quality results. Proficient in analyzing vendor proposals, tracking project performance, and ensuring compliance with standards and regulations. Adept at fostering collaboration, conducting stage gate reviews, and driving project success.`}</p>
       <button className="start-button uk-button uk-button-default" onClick={startGame}>
         Start the Journey
       </button>
     </section>
    
     
-
-
-    {/* <section className={`skills ${gameStarted ? 'visible' : ''}`}>
-      <h2 class="uk-animation-slide-left">Skills</h2>
-      <ul>
-        <li>Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
-        <li>Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
-        <li>Databases: MySQL, PostgreSQL</li>
-        <li>Project Management</li>
-      </ul>
-    </section> */}
-    <div>
-    {/* <img src={ola} width="150px" height="150px" /> */}
-    </div>
     <section className={`projects ${gameStarted ? 'visible' : ''}`}>
-    <br />
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-      <img className='image' src={ola} width="220px" height="220px" />
+       {/* <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+
+    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+            
+        </li>
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+            
+        </li>
+        <li>
+        <img className='Slide' src={ola} width="220px" height="220px" />
+        </li>
+        <li>
+            <img className='Slide' src={ola} alt="" />
+            
+        </li>
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+           
+
+        </li>
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+            
+        </li>
+        <li>
+            <img className='Slide' src={ola}  alt="" />
+            
+        </li>
+        <li>
+            <img className='Slide' src={paw}  alt="" />
+           
+        </li>
+
+       
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>  */}
+ 
+      {/* <img className='image' src={pfp} width="220px" height="220px" /> */}
       
       
-      <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1>
+      {/* <h1 class="uk-animation-slide-right">Hello, I'm Olayinka</h1> */}
       
-      <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p>
+      {/* <p>{`A Dedicated Software Engineer with a proven track record of successfully leading smaller size projects and components of larger projects/programs at Pursuit..`}</p> */}
       {/* <button className="start-button" onClick={startGame}>
         Start the Journey
       </button> */}
       <section className={`skills ${gameStarted ? 'visible' : ''}`}>
-      <h2 class=" uk-animation-slide-right">Projects</h2>
+      <h1 class=" uk-animation-slide-right">Projects</h1>
       {/* <ul>
         <li class=" uk-animation-slide-right">Programming Languages: JavaScript, Python (Node.js, React/React Native), TypeScript</li>
         <li class=" uk-animation-slide-right">Frameworks/Libraries: Express, React/Redux, Tailwind CSS, Material UI, React-Bootstrap</li>
@@ -157,50 +121,43 @@ const Home = () => {
         <li class=" uk-animation-slide-right">Project Management</li>
       </ul> */}
     </section>
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+    <div class="Slid uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
 
 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/black-t-shirt-is-hanging-hanger-with-word-dope-it_1340-38184.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>1</h1></div> */}
+        <img className='Slider' src={paw}  alt="" />
+       
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/black-shirt-with-word-ultra-it_1340-37775.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>2</h1></div> */}
+        <img className='Slider' src={ola}  alt="" />
+       
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/red-shirt-is-box-with-red-box-background_1340-38146.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>3</h1></div> */}
+        <img className='Slider' src={paw}  alt="" />
+       
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/fashionable-men-winter-jacket-with-zipper-close-up-generated-by-ai_188544-43270.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>4</h1></div> */}
+        <img className='Slider' src={ola}  alt="" />
+       
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/dark-glass-bottle-with-single-liquid-drop-generative-ai_188544-9634.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>5</h1></div> */}
+        <img className='Slider' src={ahead}  alt="" />
+        
 
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/young-couple-embracing-autumn-nature-smiling-generated-by-ai_188544-54279.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>6</h1></div> */}
+        <img className='Slider' src={pfp}  alt="" />
+        
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-funky-clothing-enjoying-outdoors-generated-by-ai_188544-37450.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>7</h1></div> */}
+        <img className='Slider' src="https://img.freepik.com/free-photo/young-adults-funky-clothing-enjoying-outdoors-generated-by-ai_188544-37450.jpg"  alt="" />
+    
     </li>
     <li>
-        <img className='Slide' src="https://img.freepik.com/free-photo/multi-ethnic-group-young-adults-smiling-generated-by-ai_24640-81233.jpg"  alt="" />
-        {/* <div class="uk-position-center uk-panel"><h1>8</h1></div> */}
+        <img className='Slider' src="https://img.freepik.com/free-photo/multi-ethnic-group-young-adults-smiling-generated-by-ai_24640-81233.jpg"  alt="" />
+        
     </li>
-    <li>
-        {/* <img className='Slide' src="https://img.freepik.com/free-photo/young-adults-embrace-fashionable-city-night-generated-by-ai_188544-38888.jpg"  alt="" /> */}
-        {/* <div class="uk-position-center uk-panel"><h1>9</h1></div> */}
-    </li>
-    <li>
-        {/* <img className='Slide' src="https://img.freepik.com/free-photo/two-women-are-standing-outside-store-one-them-is-wearing-green-jacket_1340-38174.jpg"  alt="" /> */}
-        {/* <div class="uk-position-center uk-panel"><h1>10</h1></div> */}
-    </li>
+  
 </ul>
 <h2>Links to my Projects</h2>
 <div className='blogPostCont'>
