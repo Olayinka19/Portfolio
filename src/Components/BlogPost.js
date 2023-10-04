@@ -3,8 +3,7 @@ import React from 'react'
 function BlogPost() {
   return (
     <div>
-    <br />
-    <br />
+    
     <br />
     <br />
     <article>
