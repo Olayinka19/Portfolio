@@ -121,7 +121,7 @@ const Home = () => {
     <li>
         <a class="uk-accordion-title" href="#">Programming Languages</a>
         <div class="uk-accordion-content">
-            <p> HTML, CSS, JavaScript, Python (Node.js, React/React Native), TypeScript</p>
+            <p> HTML5, CSS, JavaScript, Python (Node.js, React/React Native), TypeScript</p>
         </div>
     </li>
     <li>
