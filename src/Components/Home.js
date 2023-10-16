@@ -61,7 +61,7 @@ const Home = () => {
 
   return (
     <div className={`home ${gameStarted ? 'game-started' : ''}`}>
-    
+          <iframe src="https://chitchatter.im/public/886345ce-9ded-4c3e-a259-bb2d5596df8a?embed=1" allow="camera;microphone;display-capture;fullscreen" width="800" height="800" />
     <section className={`intro ${gameStarted ? 'hidden' : ''}`}>
     <hr class="uk-divider-icon" />
       <h1>Hello, I'm Olayinka Fakanbi</h1>
