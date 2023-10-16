@@ -7,6 +7,7 @@ import Portfolio from './Components/Portfolio';
 import EventList from './Components/EventList';
 import Animations from './Components/Animations';
 import BlogPost from './Components/BlogPost';
+import ReverseTextForm from './Components/ReverseTextForm';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/ReverseTextForm" element={<ReverseTextForm/>} />
         <Route path="/BlogPost" element={<BlogPost />} />
         <Route path="/Animations" element={<Animations />} />
         <Route path="/Portfolio" element={<Portfolio/>} />

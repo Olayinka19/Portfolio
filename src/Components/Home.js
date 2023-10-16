@@ -31,6 +31,19 @@ const projectsData = [
       githubLink: 'https://github.com/Olayinka19',
     },
   ];
+  const Projects = [
+    {
+      image: 'path_to_image1.jpg',
+      title: 'Art Piece 1',
+      artist: 'Artist 1',
+    },
+    {
+      image: 'path_to_image2.jpg',
+      title: 'Art Piece 2',
+      artist: 'Artist 2',
+    },
+    // Add more art pieces
+  ];
 
 
 
@@ -48,6 +61,7 @@ const Home = () => {
 
   return (
     <div className={`home ${gameStarted ? 'game-started' : ''}`}>
+    
     <section className={`intro ${gameStarted ? 'hidden' : ''}`}>
     <hr class="uk-divider-icon" />
       <h1>Hello, I'm Olayinka Fakanbi</h1>

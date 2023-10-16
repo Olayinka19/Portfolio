@@ -39,6 +39,7 @@ const NavBar = () => {
         <ul className="navbar">
           {/* <li><a href="/About">About</a></li> */}
           <li><a href="/Portfolio">Portfolio</a></li>
+          <li><a href="/ReverseTextForm">ReverseText</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/BlogPost">BlogPost</a></li>
         </ul>
