@@ -7,7 +7,10 @@ import Portfolio from './Components/Portfolio';
 import EventList from './Components/EventList';
 import Animations from './Components/Animations';
 import BlogPost from './Components/BlogPost';
+import HaikuGenerator from './Components/HaikuGenerator';
+import Budget from './Components/Budget';
 import ReverseTextForm from './Components/ReverseTextForm';
+import ProgressBar from './Components/ProgressBar';
 import './App.css';
 
 function App() {
@@ -16,7 +19,10 @@ function App() {
     <NavBar />
     <Router>
       <Routes>
+        <Route path="/HaikuGenerator" element={<HaikuGenerator/>} />
         <Route path="/" element={<Home/>} />
+        <Route path="/ProgressBar" element={<ProgressBar/>} />
+        <Route path="/Budget" element={<Budget/>} />
         <Route path="/ReverseTextForm" element={<ReverseTextForm/>} />
         <Route path="/BlogPost" element={<BlogPost />} />
         <Route path="/Animations" element={<Animations />} />
